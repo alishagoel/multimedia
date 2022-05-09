@@ -1,0 +1,99 @@
+*{
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+
+}
+
+body {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size:15px;
+}
+header{
+  background-image: url("../img/background.png");
+  background-position:center;
+  background-repeat:no-repeat;
+  background-size: cover;
+  background-position-y: -680px;
+}
+h1,h2,ul li{
+  font-family: 'Inknut Antiqua', serif;
+}
+img{
+  max-width:100%;
+}
+h1{
+  font-size: 100px;
+  line-height: 130%;
+}
+h2{
+  font-size:30px;
+  line-height: 130%;
+}
+p{
+  font-size: 120%;
+}
+ul li{
+  list-style: none;
+}
+.pink{
+  color: #FF00F7;
+}
+.black{
+  color: #000000;
+}
+.bg1{
+  background-color: #000000;
+}
+.bg2{
+  background-color: #FF00F7;
+}
+.border{
+  border:1px solid black;
+  text-decoration: none;
+  color:black;
+  padding:10px 20px;
+  margin-bottom:20%;
+  display: inline-block;
+  border-radius: 20px;
+  transition: background 0.5s ease-in-out, color 0.5s ease-in-out;
+}
+.border:hover{
+  background-color: black;
+  color: white;
+}
+figcaption{
+  font-size: 10px;
+}
+
+.blue{
+  background-color: #DBEBF4;
+}
+
+footer h2{
+  font-size: 50px;
+  color: black;
+  text-align: center;
+}
+.right_alignment{
+  text-align: right;
+}
+
+footer p{
+  color:gray;
+  text-align: center;
+}
+
+#center{
+  text-align: center;
+}
+
+.container{
+  height: inherit;
+  width: 100vw;
+  padding: 2em;
+}
+
+.bold{
+  font-weight: 400;
+}
